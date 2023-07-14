@@ -15,7 +15,6 @@ someNumbers(10, 30)
 // casas decimais conforme exemplos.
 
 function circleArea(radius: number) {
-
     let area: number = Math.PI * Math.pow(radius, 2)
     let message: string = `A = ${area.toFixed(4)}`
     return console.log(message)
@@ -65,7 +64,6 @@ calcSalary(25, 100, 5.50)
 // código de uma peça 2, o número de peças 2 e o valor unitário de cada peça 2. Calcule e mostre o valor a ser pago.
 
 function PosSystem(product1: number[], product2: number[]) {
-
     let totalValue: number = (product1[1] * product1[2]) + (product2[1] * product2[2])
     let message: string = `VALOR A PAGAR: R$ ${totalValue}`
     return console.log(message)
